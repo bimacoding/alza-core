@@ -42,7 +42,7 @@
     "symfony/cache": "^5.4",
     "symfony/process": "^5.4",
     "ramsey/uuid": "^4.2",
-    "vlucas/phpdotenv": "^5.4",
+    "vlucas/phpdotenv": "^5.4.1",
     "firebase/php-jwt": "^6.0",
     "phpmailer/phpmailer": "~6.5"
   },
