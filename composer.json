@@ -1,0 +1,69 @@
+{
+  "name": "bimacoding/alza-core",
+  "type": "library",
+  "description": "Alza Framework Core Files. https://github.com/bimacoding/alza",
+  "keywords": [
+    "php",
+    "framework",
+    "alza",
+    "simple",
+    "basic"
+  ],
+  "homepage": "https://github.com/bimacoding/alza-core",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "İzni Burak Demirtaş",
+      "email": "arifiik@vitech.asia",
+      "homepage": "http://vitech.asia",
+      "role": "Creator"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "bimacoding/alza-migration": "^1.0",
+    "bimacoding/pdox": "^1.0",
+    "bimacoding/router": "^2.5",
+    "illuminate/database": "^8.0",
+    "illuminate/pagination": "^8.0",
+    "illuminate/view": "^8.0",
+    "illuminate/events": "^8.0",
+    "illuminate/translation": "^8.0",
+    "illuminate/cache": "^8.0",
+    "illuminate/collections": "^8.0",
+    "illuminate/macroable": "^8.0",
+    "symfony/console": "^5.4",
+    "symfony/http-foundation": "^5.4",
+    "symfony/var-dumper": "^5.4",
+    "symfony/cache": "^5.4",
+    "symfony/process": "^5.4",
+    "ramsey/uuid": "^4.2",
+    "vlucas/phpdotenv": "^5.4",
+    "firebase/php-jwt": "^6.0",
+    "phpmailer/phpmailer": "~6.5"
+  },
+  "require-dev": {
+    "doctrine/dbal": "^2.6|^3.0",
+    "filp/whoops": "^2.8"
+  },
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "Alza\\": "src/"
+    }
+  },
+  "support": {
+    "email": "info@vitech.asia"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
